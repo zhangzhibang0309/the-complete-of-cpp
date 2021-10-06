@@ -66,17 +66,18 @@ include CMakeFiles/cppPro.dir/progress.make
 include CMakeFiles/cppPro.dir/flags.make
 
 CMakeFiles/cppPro.dir/main.cpp.obj: CMakeFiles/cppPro.dir/flags.make
+CMakeFiles/cppPro.dir/main.cpp.obj: CMakeFiles/cppPro.dir/includes_CXX.rsp
 CMakeFiles/cppPro.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppPro.dir/main.cpp.obj"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppPro.dir\main.cpp.obj -c C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\main.cpp
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppPro.dir\main.cpp.obj -c C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\main.cpp
 
 CMakeFiles/cppPro.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppPro.dir/main.cpp.i"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\main.cpp > CMakeFiles\cppPro.dir\main.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\main.cpp > CMakeFiles\cppPro.dir\main.cpp.i
 
 CMakeFiles/cppPro.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppPro.dir/main.cpp.s"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\main.cpp -o CMakeFiles\cppPro.dir\main.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\main.cpp -o CMakeFiles\cppPro.dir\main.cpp.s
 
 # Object files for target cppPro
 cppPro_OBJECTS = \

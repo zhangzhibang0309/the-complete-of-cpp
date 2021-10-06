@@ -194,6 +194,32 @@ cppPro/fast:
 .PHONY : 01_basicGrammer-05_operationSymbol/fast
 
 #=============================================================================
+# Target rules for targets named 01_basicGrammer-06_processControl
+
+# Build rule for target.
+01_basicGrammer-06_processControl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer-06_processControl
+.PHONY : 01_basicGrammer-06_processControl
+
+# fast build rule for target.
+01_basicGrammer-06_processControl/fast:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
+.PHONY : 01_basicGrammer-06_processControl/fast
+
+#=============================================================================
+# Target rules for targets named 01_basicGrammer-08_function
+
+# Build rule for target.
+01_basicGrammer-08_function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer-08_function
+.PHONY : 01_basicGrammer-08_function
+
+# fast build rule for target.
+01_basicGrammer-08_function/fast:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/build
+.PHONY : 01_basicGrammer-08_function/fast
+
+#=============================================================================
 # Target rules for targets named 01_basicGrammer-07_array
 
 # Build rule for target.
@@ -207,17 +233,17 @@ cppPro/fast:
 .PHONY : 01_basicGrammer-07_array/fast
 
 #=============================================================================
-# Target rules for targets named 01_basicGrammer-06_processControl
+# Target rules for targets named 01_basicGrammer-09_pointer
 
 # Build rule for target.
-01_basicGrammer-06_processControl: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer-06_processControl
-.PHONY : 01_basicGrammer-06_processControl
+01_basicGrammer-09_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer-09_pointer
+.PHONY : 01_basicGrammer-09_pointer
 
 # fast build rule for target.
-01_basicGrammer-06_processControl/fast:
-	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
-.PHONY : 01_basicGrammer-06_processControl/fast
+01_basicGrammer-09_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/build
+.PHONY : 01_basicGrammer-09_pointer/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -258,6 +284,8 @@ help:
 	@echo ... 01_basicGrammer-05_operationSymbol
 	@echo ... 01_basicGrammer-06_processControl
 	@echo ... 01_basicGrammer-07_array
+	@echo ... 01_basicGrammer-08_function
+	@echo ... 01_basicGrammer-09_pointer
 	@echo ... cppPro
 	@echo ... main.obj
 	@echo ... main.i

@@ -84,8 +84,10 @@ clean: 01_basicGrammer/clean
 01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/all
 01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/all
 01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/all
-01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/all
 01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all
+01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/all
+01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/all
+01_basicGrammer/all: 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/all
 .PHONY : 01_basicGrammer/all
 
 # Recursive "preinstall" directory target.
@@ -98,8 +100,10 @@ clean: 01_basicGrammer/clean
 01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/clean
 01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/clean
 01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/clean
-01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/clean
 01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean
+01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/clean
+01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/clean
+01_basicGrammer/clean: 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/clean
 .PHONY : 01_basicGrammer/clean
 
 #=============================================================================
@@ -109,7 +113,7 @@ clean: 01_basicGrammer/clean
 CMakeFiles/cppPro.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppPro.dir\build.make CMakeFiles/cppPro.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppPro.dir\build.make CMakeFiles/cppPro.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target cppPro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target cppPro"
 .PHONY : CMakeFiles/cppPro.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,6 +263,58 @@ CMakeFiles/cppPro.dir/clean:
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/clean
 
 #=============================================================================
+# Target rules for target 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir
+
+# All Build rule for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/depend
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 01_basicGrammer-06_processControl"
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all
+
+# Build rule for subdir invocation for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 0
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+
+# Convenience name for target.
+01_basicGrammer-06_processControl: 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+.PHONY : 01_basicGrammer-06_processControl
+
+# clean rule for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean
+
+#=============================================================================
+# Target rules for target 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir
+
+# All Build rule for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/all:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/depend
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 01_basicGrammer-08_function"
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/all
+
+# Build rule for subdir invocation for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 0
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule
+
+# Convenience name for target.
+01_basicGrammer-08_function: 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule
+.PHONY : 01_basicGrammer-08_function
+
+# clean rule for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/clean
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/clean
+
+#=============================================================================
 # Target rules for target 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir
 
 # All Build rule for target.
@@ -285,30 +341,30 @@ CMakeFiles/cppPro.dir/clean:
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/clean
 
 #=============================================================================
-# Target rules for target 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir
+# Target rules for target 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir
 
 # All Build rule for target.
-01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all:
-	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/depend
-	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 01_basicGrammer-06_processControl"
-.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all
+01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/all:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/depend
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 01_basicGrammer-09_pointer"
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/all
 
 # Build rule for subdir invocation for target.
-01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule: cmake_check_build_system
+01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 0
-.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule
 
 # Convenience name for target.
-01_basicGrammer-06_processControl: 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
-.PHONY : 01_basicGrammer-06_processControl
+01_basicGrammer-09_pointer: 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule
+.PHONY : 01_basicGrammer-09_pointer
 
 # clean rule for target.
-01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean
-.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/clean
+01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/clean
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

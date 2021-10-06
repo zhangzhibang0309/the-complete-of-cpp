@@ -1,3 +1,3 @@
 C:\JetBrains\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\01_basicGrammer-04_dataType.dir/objects.a
-D:\MinGW\mingw32\bin\ar.exe cr CMakeFiles\01_basicGrammer-04_dataType.dir/objects.a @CMakeFiles\01_basicGrammer-04_dataType.dir\objects1.rsp
-D:\MinGW\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\01_basicGrammer-04_dataType.dir/objects.a -Wl,--no-whole-archive -o 01_basicGrammer-04_dataType.exe -Wl,--out-implib,lib01_basicGrammer-04_dataType.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\01_basicGrammer-04_dataType.dir\linklibs.rsp
+D:\mingw64\bin\ar.exe cr CMakeFiles\01_basicGrammer-04_dataType.dir/objects.a @CMakeFiles\01_basicGrammer-04_dataType.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\01_basicGrammer-04_dataType.dir/objects.a -Wl,--no-whole-archive -o 01_basicGrammer-04_dataType.exe -Wl,--out-implib,lib01_basicGrammer-04_dataType.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\01_basicGrammer-04_dataType.dir\linklibs.rsp

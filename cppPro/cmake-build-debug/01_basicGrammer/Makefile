@@ -186,6 +186,34 @@ depend:
 .PHONY : 01_basicGrammer-05_operationSymbol/fast
 
 # Convenience name for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+
+# Convenience name for target.
+01_basicGrammer-06_processControl: 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+.PHONY : 01_basicGrammer-06_processControl
+
+# fast build rule for target.
+01_basicGrammer-06_processControl/fast:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
+.PHONY : 01_basicGrammer-06_processControl/fast
+
+# Convenience name for target.
+01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule
+
+# Convenience name for target.
+01_basicGrammer-08_function: 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/rule
+.PHONY : 01_basicGrammer-08_function
+
+# fast build rule for target.
+01_basicGrammer-08_function/fast:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/build
+.PHONY : 01_basicGrammer-08_function/fast
+
+# Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule:
 	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule
@@ -200,18 +228,18 @@ depend:
 .PHONY : 01_basicGrammer-07_array/fast
 
 # Convenience name for target.
-01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule:
-	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
-.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule
+.PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule
 
 # Convenience name for target.
-01_basicGrammer-06_processControl: 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
-.PHONY : 01_basicGrammer-06_processControl
+01_basicGrammer-09_pointer: 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/rule
+.PHONY : 01_basicGrammer-09_pointer
 
 # fast build rule for target.
-01_basicGrammer-06_processControl/fast:
-	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
-.PHONY : 01_basicGrammer-06_processControl/fast
+01_basicGrammer-09_pointer/fast:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/build
+.PHONY : 01_basicGrammer-09_pointer/fast
 
 01_helloWorld.obj: 01_helloWorld.cpp.obj
 .PHONY : 01_helloWorld.obj
@@ -381,6 +409,54 @@ depend:
 	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.s
 .PHONY : 07_array.cpp.s
 
+08_function.obj: 08_function.cpp.obj
+.PHONY : 08_function.obj
+
+# target to build an object file
+08_function.cpp.obj:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/08_function.cpp.obj
+.PHONY : 08_function.cpp.obj
+
+08_function.i: 08_function.cpp.i
+.PHONY : 08_function.i
+
+# target to preprocess a source file
+08_function.cpp.i:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/08_function.cpp.i
+.PHONY : 08_function.cpp.i
+
+08_function.s: 08_function.cpp.s
+.PHONY : 08_function.s
+
+# target to generate assembly for a file
+08_function.cpp.s:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-08_function.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-08_function.dir/08_function.cpp.s
+.PHONY : 08_function.cpp.s
+
+09_pointer.obj: 09_pointer.cpp.obj
+.PHONY : 09_pointer.obj
+
+# target to build an object file
+09_pointer.cpp.obj:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/09_pointer.cpp.obj
+.PHONY : 09_pointer.cpp.obj
+
+09_pointer.i: 09_pointer.cpp.i
+.PHONY : 09_pointer.i
+
+# target to preprocess a source file
+09_pointer.cpp.i:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/09_pointer.cpp.i
+.PHONY : 09_pointer.cpp.i
+
+09_pointer.s: 09_pointer.cpp.s
+.PHONY : 09_pointer.s
+
+# target to generate assembly for a file
+09_pointer.cpp.s:
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-09_pointer.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-09_pointer.dir/09_pointer.cpp.s
+.PHONY : 09_pointer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -396,6 +472,8 @@ help:
 	@echo ... 01_basicGrammer-05_operationSymbol
 	@echo ... 01_basicGrammer-06_processControl
 	@echo ... 01_basicGrammer-07_array
+	@echo ... 01_basicGrammer-08_function
+	@echo ... 01_basicGrammer-09_pointer
 	@echo ... 01_helloWorld.obj
 	@echo ... 01_helloWorld.i
 	@echo ... 01_helloWorld.s
@@ -417,6 +495,12 @@ help:
 	@echo ... 07_array.obj
 	@echo ... 07_array.i
 	@echo ... 07_array.s
+	@echo ... 08_function.obj
+	@echo ... 08_function.i
+	@echo ... 08_function.s
+	@echo ... 09_pointer.obj
+	@echo ... 09_pointer.i
+	@echo ... 09_pointer.s
 .PHONY : help
 
 
