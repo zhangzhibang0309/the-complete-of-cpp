@@ -56,10 +56,10 @@ RM = C:\JetBrains\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\ algorithm_study\cppPro"
+CMAKE_SOURCE_DIR = C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\ algorithm_study\cppPro\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "D:\ algorithm_study\cppPro\cmake-build-debug\CMakeFiles" "D:\ algorithm_study\cppPro\cmake-build-debug\01_basicGrammer\\CMakeFiles\progress.marks"
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\ algorithm_study\cppPro\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer\\CMakeFiles\progress.marks
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/clean
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/preinstall
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/preinstall
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-01_helloWorld/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/build
 .PHONY : 01_basicGrammer-01_helloWorld/fast
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-02_varAndConst/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/build
 .PHONY : 01_basicGrammer-02_varAndConst/fast
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-03_rawOfName/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/build
 .PHONY : 01_basicGrammer-03_rawOfName/fast
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-04_dataType/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/build
 .PHONY : 01_basicGrammer-04_dataType/fast
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-05_operationSymbol/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/build
 .PHONY : 01_basicGrammer-05_operationSymbol/fast
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-07_array/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/build
 .PHONY : 01_basicGrammer-07_array/fast
 
 # Convenience name for target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/rule
 
 # Convenience name for target.
@@ -210,7 +210,7 @@ depend:
 
 # fast build rule for target.
 01_basicGrammer-06_processControl/fast:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/build
 .PHONY : 01_basicGrammer-06_processControl/fast
 
 01_helloWorld.obj: 01_helloWorld.cpp.obj
@@ -218,7 +218,7 @@ depend:
 
 # target to build an object file
 01_helloWorld.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj
 .PHONY : 01_helloWorld.cpp.obj
 
 01_helloWorld.i: 01_helloWorld.cpp.i
@@ -226,7 +226,7 @@ depend:
 
 # target to preprocess a source file
 01_helloWorld.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.i
 .PHONY : 01_helloWorld.cpp.i
 
 01_helloWorld.s: 01_helloWorld.cpp.s
@@ -234,7 +234,7 @@ depend:
 
 # target to generate assembly for a file
 01_helloWorld.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.s
 .PHONY : 01_helloWorld.cpp.s
 
 02_varAndConst.obj: 02_varAndConst.cpp.obj
@@ -242,7 +242,7 @@ depend:
 
 # target to build an object file
 02_varAndConst.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/02_varAndConst.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/02_varAndConst.cpp.obj
 .PHONY : 02_varAndConst.cpp.obj
 
 02_varAndConst.i: 02_varAndConst.cpp.i
@@ -250,7 +250,7 @@ depend:
 
 # target to preprocess a source file
 02_varAndConst.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/02_varAndConst.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/02_varAndConst.cpp.i
 .PHONY : 02_varAndConst.cpp.i
 
 02_varAndConst.s: 02_varAndConst.cpp.s
@@ -258,7 +258,7 @@ depend:
 
 # target to generate assembly for a file
 02_varAndConst.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/02_varAndConst.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-02_varAndConst.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-02_varAndConst.dir/02_varAndConst.cpp.s
 .PHONY : 02_varAndConst.cpp.s
 
 03_rawOfName.obj: 03_rawOfName.cpp.obj
@@ -266,7 +266,7 @@ depend:
 
 # target to build an object file
 03_rawOfName.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.obj
 .PHONY : 03_rawOfName.cpp.obj
 
 03_rawOfName.i: 03_rawOfName.cpp.i
@@ -274,7 +274,7 @@ depend:
 
 # target to preprocess a source file
 03_rawOfName.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.i
 .PHONY : 03_rawOfName.cpp.i
 
 03_rawOfName.s: 03_rawOfName.cpp.s
@@ -282,7 +282,7 @@ depend:
 
 # target to generate assembly for a file
 03_rawOfName.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-03_rawOfName.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.s
 .PHONY : 03_rawOfName.cpp.s
 
 04_dataType.obj: 04_dataType.cpp.obj
@@ -290,7 +290,7 @@ depend:
 
 # target to build an object file
 04_dataType.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/04_dataType.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/04_dataType.cpp.obj
 .PHONY : 04_dataType.cpp.obj
 
 04_dataType.i: 04_dataType.cpp.i
@@ -298,7 +298,7 @@ depend:
 
 # target to preprocess a source file
 04_dataType.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/04_dataType.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/04_dataType.cpp.i
 .PHONY : 04_dataType.cpp.i
 
 04_dataType.s: 04_dataType.cpp.s
@@ -306,7 +306,7 @@ depend:
 
 # target to generate assembly for a file
 04_dataType.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/04_dataType.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-04_dataType.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-04_dataType.dir/04_dataType.cpp.s
 .PHONY : 04_dataType.cpp.s
 
 05_operationSymbol.obj: 05_operationSymbol.cpp.obj
@@ -314,7 +314,7 @@ depend:
 
 # target to build an object file
 05_operationSymbol.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/05_operationSymbol.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/05_operationSymbol.cpp.obj
 .PHONY : 05_operationSymbol.cpp.obj
 
 05_operationSymbol.i: 05_operationSymbol.cpp.i
@@ -322,7 +322,7 @@ depend:
 
 # target to preprocess a source file
 05_operationSymbol.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/05_operationSymbol.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/05_operationSymbol.cpp.i
 .PHONY : 05_operationSymbol.cpp.i
 
 05_operationSymbol.s: 05_operationSymbol.cpp.s
@@ -330,7 +330,7 @@ depend:
 
 # target to generate assembly for a file
 05_operationSymbol.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/05_operationSymbol.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-05_operationSymbol.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-05_operationSymbol.dir/05_operationSymbol.cpp.s
 .PHONY : 05_operationSymbol.cpp.s
 
 06_processControl.obj: 06_processControl.cpp.obj
@@ -338,7 +338,7 @@ depend:
 
 # target to build an object file
 06_processControl.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/06_processControl.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/06_processControl.cpp.obj
 .PHONY : 06_processControl.cpp.obj
 
 06_processControl.i: 06_processControl.cpp.i
@@ -346,7 +346,7 @@ depend:
 
 # target to preprocess a source file
 06_processControl.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/06_processControl.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/06_processControl.cpp.i
 .PHONY : 06_processControl.cpp.i
 
 06_processControl.s: 06_processControl.cpp.s
@@ -354,7 +354,7 @@ depend:
 
 # target to generate assembly for a file
 06_processControl.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/06_processControl.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-06_processControl.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-06_processControl.dir/06_processControl.cpp.s
 .PHONY : 06_processControl.cpp.s
 
 07_array.obj: 07_array.cpp.obj
@@ -362,7 +362,7 @@ depend:
 
 # target to build an object file
 07_array.cpp.obj:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.obj
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.obj
 .PHONY : 07_array.cpp.obj
 
 07_array.i: 07_array.cpp.i
@@ -370,7 +370,7 @@ depend:
 
 # target to preprocess a source file
 07_array.cpp.i:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.i
 .PHONY : 07_array.cpp.i
 
 07_array.s: 07_array.cpp.s
@@ -378,7 +378,7 @@ depend:
 
 # target to generate assembly for a file
 07_array.cpp.s:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 01_basicGrammer\CMakeFiles\01_basicGrammer-07_array.dir\build.make 01_basicGrammer/CMakeFiles/01_basicGrammer-07_array.dir/07_array.cpp.s
 .PHONY : 07_array.cpp.s
 
 # Help Target
@@ -428,6 +428,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ algorithm_study/cppPro/01_basicGrammer/03_rawOfName.cpp" "D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.obj"
+  "C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/03_rawOfName.cpp" "C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/CMakeFiles/01_basicGrammer-03_rawOfName.dir/03_rawOfName.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

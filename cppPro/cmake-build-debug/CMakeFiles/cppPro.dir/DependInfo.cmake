@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ algorithm_study/cppPro/main.cpp" "D:/ algorithm_study/cppPro/cmake-build-debug/CMakeFiles/cppPro.dir/main.cpp.obj"
+  "C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/main.cpp" "C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/CMakeFiles/cppPro.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

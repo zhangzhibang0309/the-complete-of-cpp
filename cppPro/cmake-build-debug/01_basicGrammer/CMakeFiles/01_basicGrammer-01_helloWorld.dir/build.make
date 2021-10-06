@@ -52,10 +52,10 @@ RM = C:\JetBrains\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\ algorithm_study\cppPro"
+CMAKE_SOURCE_DIR = C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\ algorithm_study\cppPro\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/depend.make
@@ -68,16 +68,16 @@ include 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/flags.make
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj: 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/flags.make
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj: 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/includes_CXX.rsp
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj: ../01_basicGrammer/01_helloWorld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\ algorithm_study\cppPro\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj"
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1\01_BAS~1 && D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\01_basicGrammer-01_helloWorld.dir\01_helloWorld.cpp.obj -c "D:\ algorithm_study\cppPro\01_basicGrammer\01_helloWorld.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.obj"
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer && D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\01_basicGrammer-01_helloWorld.dir\01_helloWorld.cpp.obj -c C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\01_basicGrammer\01_helloWorld.cpp
 
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.i"
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1\01_BAS~1 && D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\ algorithm_study\cppPro\01_basicGrammer\01_helloWorld.cpp" > CMakeFiles\01_basicGrammer-01_helloWorld.dir\01_helloWorld.cpp.i
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer && D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\01_basicGrammer\01_helloWorld.cpp > CMakeFiles\01_basicGrammer-01_helloWorld.dir\01_helloWorld.cpp.i
 
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/01_basicGrammer-01_helloWorld.dir/01_helloWorld.cpp.s"
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1\01_BAS~1 && D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\ algorithm_study\cppPro\01_basicGrammer\01_helloWorld.cpp" -o CMakeFiles\01_basicGrammer-01_helloWorld.dir\01_helloWorld.cpp.s
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer && D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\01_basicGrammer\01_helloWorld.cpp -o CMakeFiles\01_basicGrammer-01_helloWorld.dir\01_helloWorld.cpp.s
 
 # Object files for target 01_basicGrammer-01_helloWorld
 01_basicGrammer__01_helloWorld_OBJECTS = \
@@ -91,18 +91,18 @@ include 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/flags.make
 01_basicGrammer/01_basicGrammer-01_helloWorld.exe: 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/linklibs.rsp
 01_basicGrammer/01_basicGrammer-01_helloWorld.exe: 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/objects1.rsp
 01_basicGrammer/01_basicGrammer-01_helloWorld.exe: 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\ algorithm_study\cppPro\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 01_basicGrammer-01_helloWorld.exe"
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1\01_BAS~1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\01_basicGrammer-01_helloWorld.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 01_basicGrammer-01_helloWorld.exe"
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\01_basicGrammer-01_helloWorld.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/build: 01_basicGrammer/01_basicGrammer-01_helloWorld.exe
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/build
 
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/clean:
-	cd /d D:\ALGORI~1\cppPro\CMAKE-~1\01_BAS~1 && $(CMAKE_COMMAND) -P CMakeFiles\01_basicGrammer-01_helloWorld.dir\cmake_clean.cmake
+	cd /d C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer && $(CMAKE_COMMAND) -P CMakeFiles\01_basicGrammer-01_helloWorld.dir\cmake_clean.cmake
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/clean
 
 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\ algorithm_study\cppPro" "D:\ algorithm_study\cppPro\01_basicGrammer" "D:\ algorithm_study\cppPro\cmake-build-debug" "D:\ algorithm_study\cppPro\cmake-build-debug\01_basicGrammer" "D:\ algorithm_study\cppPro\cmake-build-debug\01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\01_basicGrammer C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer C:\Users\Lenovo\Desktop\the-complete-of-cpp\cppPro\cmake-build-debug\01_basicGrammer\CMakeFiles\01_basicGrammer-01_helloWorld.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : 01_basicGrammer/CMakeFiles/01_basicGrammer-01_helloWorld.dir/depend
 

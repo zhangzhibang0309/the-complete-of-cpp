@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\01_basicGrammer\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cppPro">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/cppPro.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/cppPro.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppPro"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppPro"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cppPro/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/cppPro.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/cppPro.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,40 +53,40 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppPro/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppPro/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-01_helloWorld">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-01_helloWorld.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-01_helloWorld.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -95,20 +95,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-01_helloWorld"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-01_helloWorld"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-01_helloWorld/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-01_helloWorld.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-01_helloWorld.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -117,20 +117,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-01_helloWorld/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-01_helloWorld/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-02_varAndConst">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-02_varAndConst.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-02_varAndConst.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -139,20 +139,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-02_varAndConst"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-02_varAndConst"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-02_varAndConst/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-02_varAndConst.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-02_varAndConst.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -161,20 +161,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-02_varAndConst/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-02_varAndConst/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-03_rawOfName">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-03_rawOfName.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-03_rawOfName.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -183,20 +183,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-03_rawOfName"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-03_rawOfName"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-03_rawOfName/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-03_rawOfName.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-03_rawOfName.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -205,20 +205,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-03_rawOfName/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-03_rawOfName/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-04_dataType">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-04_dataType.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-04_dataType.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -227,20 +227,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-04_dataType"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-04_dataType"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-04_dataType/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-04_dataType.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-04_dataType.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -249,20 +249,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-04_dataType/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-04_dataType/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-05_operationSymbol">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-05_operationSymbol.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-05_operationSymbol.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -271,20 +271,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-05_operationSymbol"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-05_operationSymbol"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-05_operationSymbol/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-05_operationSymbol.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-05_operationSymbol.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -293,20 +293,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-05_operationSymbol/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-05_operationSymbol/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-07_array">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-07_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-07_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -315,20 +315,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-07_array"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-07_array"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-07_array/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-07_array.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-07_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -337,20 +337,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-07_array/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-07_array/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-06_processControl">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-06_processControl.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-06_processControl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -359,20 +359,20 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-06_processControl"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-06_processControl"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="01_basicGrammer-06_processControl/fast">
-				<Option output="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-06_processControl.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer"/>
+				<Option output="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/01_basicGrammer-06_processControl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/ algorithm_study/cppPro/01_basicGrammer/."/>
+					<Add directory="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/."/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -381,41 +381,41 @@
 					<Add directory="D:/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-06_processControl/fast"/>
-					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/ algorithm_study/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 01_basicGrammer-06_processControl/fast"/>
+					<CompileFile command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/cmake-build-debug/01_basicGrammer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/01_helloWorld.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/01_helloWorld.cpp">
 			<Option target="01_basicGrammer-01_helloWorld"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/02_varAndConst.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/02_varAndConst.cpp">
 			<Option target="01_basicGrammer-02_varAndConst"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/03_rawOfName.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/03_rawOfName.cpp">
 			<Option target="01_basicGrammer-03_rawOfName"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/04_dataType.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/04_dataType.cpp">
 			<Option target="01_basicGrammer-04_dataType"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/05_operationSymbol.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/05_operationSymbol.cpp">
 			<Option target="01_basicGrammer-05_operationSymbol"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/06_processControl.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/06_processControl.cpp">
 			<Option target="01_basicGrammer-06_processControl"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/07_array.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/07_array.cpp">
 			<Option target="01_basicGrammer-07_array"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/main.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/main.cpp">
 			<Option target="cppPro"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/CMakeLists.txt">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/ algorithm_study/cppPro/01_basicGrammer/CMakeLists.txt">
+		<Unit filename="C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\01_basicGrammer\"/>
 		</Unit>
 	</Project>

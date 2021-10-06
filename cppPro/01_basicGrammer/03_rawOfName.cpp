@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    cout<<"讲述命名规则";
+    cout<<"讲述命名规则"<<endl;
     // 基本规则
     // 1.标识符不能是关键字
     // 2.只能由字母 数字 下划线组成

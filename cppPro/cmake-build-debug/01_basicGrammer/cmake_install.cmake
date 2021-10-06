@@ -1,4 +1,4 @@
-# Install script for directory: D:/ algorithm_study/cppPro/01_basicGrammer
+# Install script for directory: C:/Users/Lenovo/Desktop/the-complete-of-cpp/cppPro/01_basicGrammer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
