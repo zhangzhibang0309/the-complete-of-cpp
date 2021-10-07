@@ -5,6 +5,10 @@
 
 using namespace std;
 
+void swap2(int *p1, int *p2);
+
+void bubbleSort(int *arr, int len);
+
 int main() {
     // 1.指针的定义
     int a = 10;
@@ -68,5 +72,38 @@ int main() {
     cout << *p7 << endl;
     cout << *p7 + 1 << endl;
 
-    //
+    cout << "----------" << "指针和函数" << "----------" << endl;
+    // 8.指针和函数
+    int a8 = 10, b8 = 20;
+    cout << "a8= " << a8 << " " << "b8= " << b8 << endl;
+    swap2(&a8, &b8);
+    cout << "a8= " << a8 << " " << "b8= " << b8 << endl;
+
+    cout << "----------" << "函数实现冒泡排序（需要传递地址 指针接收）" << "----------" << endl;
+    // 9.冒泡排序function
+    int arr9[10] = {1, 4, 2, 5, 10, 232, 22, 0, -3, 11};
+    int len = sizeof(arr9) / sizeof(arr9[0]);
+    bubbleSort(arr9, len);
+    for (int i = 0; i < len; ++i) {
+        cout << arr9[i] << " ";
+    }
+    cout << endl;
+}
+
+void swap2(int *p1, int *p2) {
+    int temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+}
+
+void bubbleSort(int *arr, int len) {
+    for (int i = 0; i < len - 1; ++i) {
+        for (int j = 0; j < len - 1 - i; ++j) {
+            if (*(arr + j) > *(arr + j + 1)) {
+                int temp = *(arr + j);
+                *(arr + j) = *(arr + j + 1);
+                *(arr + j + 1) = temp;
+            }
+        }
+    }
 }
